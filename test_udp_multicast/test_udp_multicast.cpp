@@ -64,11 +64,12 @@
 // 통신됨 
 #define BUF_SIZE (1024*64-29) // = 65507
 /// 65507 + 28 = 65535
-//          20 = IP  header size ?
-//           8 = UDP header size ?
+//          20 = IP  header size
+//           8 = UDP header size
 
 //===========================================================================
 // IEEE 802.3 Ethernet Frame
+// PHY head    = 8
 // ETH head    = 6 + 6 + 2
 // ETH payload = 1500
 //               IP 20 / TCP 20
