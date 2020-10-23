@@ -5,3 +5,7 @@
 /.vs/test_udp_multicast/v16
 /Debug
 /test_udp_multicast/Debug
+/test_udp_multicast/.opencppcov/test_udp_multicast
+/test_udp_multicast/x64/Debug
+/test_udp_multicast/LastCoverageResults.log
+/x64/Debug
